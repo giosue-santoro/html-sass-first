@@ -2,4 +2,34 @@
   background-color: aqua;
   width: 600px;
   height: 600px;
+
+  h1 {
+    color: red;
+  }
+
+  .content {
+    &-p {
+      font-size: 25px;
+      color: blueviolet;
+    }
+  }
+}
+
+.lorem {
+  &-first {
+    color: burlywood;
+    font-size: 30px;
+  }
+
+  &-second {
+    font-size: 15px;
+    color: cornflowerblue;
+  }
+
+  &-paragraph {
+    position: absolute;
+    bottom: 0;
+    right: 500px;
+    color: darksalmon;
+  }
 }

@@ -3,3 +3,25 @@
   width: 600px;
   height: 600px;
 }
+#container h1 {
+  color: red;
+}
+#container .content-p {
+  font-size: 25px;
+  color: blueviolet;
+}
+
+.lorem-first {
+  color: burlywood;
+  font-size: 30px;
+}
+.lorem-second {
+  font-size: 15px;
+  color: cornflowerblue;
+}
+.lorem-paragraph {
+  position: absolute;
+  bottom: 0;
+  right: 500px;
+  color: darksalmon;
+}
